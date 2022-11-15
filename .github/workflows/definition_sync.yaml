@@ -19,9 +19,9 @@ jobs:
       - name: GitHub Action
         uses: readmeio/rdme@8.0.4
         with:
-          rdme: openapi V1_Code_Info_API.yaml --key=${{ secrets.README_FILES_AUTH_KEY }} --id=${{ secrets.README_FILES_V1_AMS_REPORT_ID }}
+          rdme: openapi V1_AMS_Report_API.yaml --key=${{ secrets.README_FILES_AUTH_KEY }} --id=${{ secrets.README_FILES_V1_AMS_REPORT_ID }}
         
       - name: GitHub Action
         uses: readmeio/rdme@8.0.4
         with:
-          rdme: openapi V1_Orders_API.yaml --key=${{ secrets.README_FILES_AUTH_KEY }} --id=${{ secrets.README_FILES_V1_AMS_REPORT_MENU_ID }}
+          rdme: openapi V1_AMS_Report_Menu_API.yaml --key=${{ secrets.README_FILES_AUTH_KEY }} --id=${{ secrets.README_FILES_V1_AMS_REPORT_MENU_ID }}
