@@ -1,1 +1,3 @@
-"# ams-files-api" 
+# ams-files-api
+
+Files API Endpoint Definitions
